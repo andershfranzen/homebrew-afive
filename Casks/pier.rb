@@ -7,6 +7,11 @@ cask "pier" do
   desc "Menu-bar Docker fleet monitor over SSH"
   homepage "https://www.afive.dev/pier"
 
+  livecheck do
+    url "https://www.afive.dev/downloads/pier/latest.json"
+    regex(/"version":\s*"([^"]+)"/i)
+  end
+
   depends_on macos: ">= :sonoma"
 
   app "Pier.app"
