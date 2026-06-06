@@ -2,7 +2,7 @@ cask "andromeda" do
   version "0.1.5"
   sha256 "c28462e218c66c1dae5b15e499396c87302ff1256afbbbfa7ef82bc5d6f3110f"
 
-  url "https://www.afive.dev/downloads/andromeda/Andromeda-#{version}.zip"
+  url "https://www.afive.dev/api/downloads/andromeda/homebrew/Andromeda-#{version}.zip"
   name "Andromeda"
   desc "Menu-bar controls for XREAL One Pro glasses"
   homepage "https://www.afive.dev/andromeda"
