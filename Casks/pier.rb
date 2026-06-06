@@ -1,6 +1,6 @@
 cask "pier" do
   version "0.4.0"
-  sha256 "e2aabb9e7f63a7f3724752ffb58ec558f71105e4e125660de3bb9853f27e8ca9"
+  sha256 "7291e2254357073e33b2822b2637810f3efa53176c41ccb6d1f915b41a17556f"
 
   url "https://www.afive.dev/downloads/pier/Pier-#{version}.zip"
   name "Pier"
