@@ -1,6 +1,6 @@
 cask "andromeda" do
-  version "0.1.5"
-  sha256 "c28462e218c66c1dae5b15e499396c87302ff1256afbbbfa7ef82bc5d6f3110f"
+  version "0.1.6"
+  sha256 "23538c1462fa087f5215e9bb4e0ce01e545a7cb4c0aac12dc1e1914491386b69"
 
   url "https://www.afive.dev/api/downloads/andromeda/homebrew/Andromeda-#{version}.zip"
   name "Andromeda"
